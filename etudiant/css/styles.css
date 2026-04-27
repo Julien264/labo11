@@ -33,9 +33,15 @@ body a:hover {
   color: darkorange;
 }
 
-header,
-section {
+header{
+  text-align: center;
+}
+
+header, section {
   min-height: 100vh;
+    display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /*------------------------------------------------------------------------------
    Mise en page
@@ -46,13 +52,6 @@ section {
   padding: 48px;
   background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
-}
-
-header div,
-section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /*----------------------------------------------------------------------------
