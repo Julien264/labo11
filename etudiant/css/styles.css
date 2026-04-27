@@ -18,9 +18,7 @@ html {
 body {
   background: #000 url(../images/fond/global.png);
   background-repeat: repeat;
-  font:
-    normal 400 1rem "Oranienbaum",
-    serif;
+  font:normal 400 1rem "Oranienbaum", serif;
   color: #fff;
 }
 
@@ -39,9 +37,19 @@ header{
 
 header, section {
   min-height: 100vh;
-    display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h1{
+  font: normal 400 6.25rem "Monoton", sans-serif;
+}
+
+h2{
+  font: normal 400 2rem "Monoton", sans-serif;
+  margin: 0;
+  text-transform: uppercase;
 }
 /*------------------------------------------------------------------------------
    Mise en page
@@ -58,11 +66,31 @@ header, section {
     Elements
 ----------------------------------------------------------------------------*/
 
+header div, section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 span{
+  font-family: "Oranienbaum", serif;
+  font-weight: 400;
+  font-style: normal;
+  font: normal 400 1.0625rem "Oranienbaum", serif;
+}
+
+
+
 /*------------------------------------------------------------------------------
    Components
 ------------------------------------------------------------------------------*/
 
 /* Header */
+
+header a{
+  position: absolute;
+  bottom: 40px;
+}
 
 /* Section Générale */
 
