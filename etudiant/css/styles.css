@@ -84,18 +84,8 @@ div .images a{
   background-image: url(../images/fond/bicycles.png);
 }
 
-.web{
-  background-image: url(../images/fond/science.png);
-}
 
-.web img{
-  width: 50%;
-}
 
-.web .images{
-display: flex;
-flex-wrap: wrap;
-}
 
 /*----------------------------------------------------------------------------
     Elements
@@ -133,6 +123,37 @@ header a{
 /* Section sports */
 
 /* Section web */
+
+.web{
+  background-image: url(../images/fond/science.png);
+}
+
+.web img{
+  width: 50%;
+}
+
+.web .images{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.web .images a{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.web .boite .images{
+  margin-bottom: 50px;
+}
+
+.lien_float{
+text-align: center;
+padding: 10px;
+background-color: darkred;
+}
 
 /* Section photographie */
 
